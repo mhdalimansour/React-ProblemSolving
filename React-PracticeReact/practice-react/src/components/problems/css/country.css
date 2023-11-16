@@ -1,0 +1,14 @@
+.selected {
+  background-color: blue;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,26 @@
+.tap-area {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  background: black;
+}
+
+.tap-full {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  /* display: inline-block; */
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+}

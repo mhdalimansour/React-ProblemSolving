@@ -1,0 +1,39 @@
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  color: green;
+}
+
+.number-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.zero {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+button {
+  width: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+
+.result {
+  color: red;
+}

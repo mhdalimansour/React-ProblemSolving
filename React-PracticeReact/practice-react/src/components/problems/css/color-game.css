@@ -1,0 +1,31 @@
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.guess-me {
+  width: 265px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+.wrong {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+.correct {
+  color: green;
+  font-size: 24px;
+  text-align: center;
+}

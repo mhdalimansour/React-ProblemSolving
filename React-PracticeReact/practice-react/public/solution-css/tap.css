@@ -1,0 +1,16 @@
+.tap-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+}
+
+.circle {
+  display: inline-block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+}

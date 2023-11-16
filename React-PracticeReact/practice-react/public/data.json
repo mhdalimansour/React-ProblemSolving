@@ -1,0 +1,70 @@
+{
+  "problems": [
+    {
+      "title": "Color Guessing Game 🎨",
+      "statement": "The game consists of a box that represents the Color to guess.\nThis Color is random after each round.\nThere are three buttons, one has the correct answer and the other two are random colors.\nIf the user clicked on the button with the correct color a message appears, same for wrong buttons.\nYou can add a twist to have correct answers counter(optional).",
+      "difficulty": 2,
+      "endProduct": "color-guessing-game.jpg",
+      "technologies": ["Javascript"],
+      "solution": "ColorGuessingGame.jsx",
+      "video": "https://youtu.be/QNYljS0_TOE?si=PRTKfU-TYiitTw0R",
+      "slug": "color-guessing-game",
+      "cssFile": "color-game.css"
+    },
+    {
+      "title": "Tap Circles ⭕",
+      "statement": "A page where the user can click on any postion, you need to place a mini circle on the clicked position.\nAlso, create two buttons: Undo and Redo",
+      "difficulty": 2,
+      "endProduct": "tap-circles.png",
+      "technologies": ["Javascript"],
+      "solution": "TapCircles.jsx",
+      "video": "https://youtu.be/A0BmLYHLPZs?si=iwcz6FoZnv7cvqMs",
+      "slug": "tap-circles",
+      "cssFile": "tap.css"
+    },
+    {
+      "title": "Country Capitals 🏙️",
+      "statement": "The user need to match a country to its capital by clicking on appropriate buttons.\n1. Your component should recieve a data property in the following format\n<CountryCapitalGame data={{Palestine: \"Jerusalem\" , Lebanon: \"Beirut\"}} />\n2. A Button should be displayed for every country and captial in a random order.\n3. Clicking a button should set its background color into blue (4009Bff)\n4. Clicking another button:\n\t-remove both buttons if a correct country and capital pair has been selected\n\t-Set the background color of both buttons to red (rreeee) if a wring pair has been selected\n5. Assuming the previously selected pair was wrong, clicking another button should restore the default bg color of the wrong pair\n and set the bg color of the clicked button to blue.\n6. When there is no buttons left, display a message: Congrats!",
+      "difficulty": 4,
+      "endProduct": "countries.png",
+      "technologies": ["Typescript"],
+      "solution": "CountryCapitalGame.tsx",
+      "video": "https://www.youtube.com/watch?v=XTgB4esy1is&list=PL6x5Q-Sj_Bla3_wMqhETxMBjFml0XJNPI&index=7",
+      "slug": "countries",
+      "cssFile": "country.css"
+    },
+    {
+      "title": "Passcode Page 🔑",
+      "statement": "A React Widget that shows a set of numbers.\nThe user have to type a 4 digit passcode, if it's correct, do a transition/show a message.",
+      "difficulty": 2,
+      "endProduct": "passcode.png",
+      "technologies": ["Javascript"],
+      "solution": "PasscodePage.jsx",
+      "video": "https://www.youtube.com/watch?v=x7yoUNV3qJI&list=PL6x5Q-Sj_Bla3_wMqhETxMBjFml0XJNPI&index=9",
+      "slug": "passcode",
+      "cssFile": "passcode.css"
+    },
+    {
+      "title": "Stoplight 🚦",
+      "statement": "Build a Stoplight component that triggers between different states with intervals.\nRed(stop): 3 secs\nYellow(slow): 2 secs\nGreen(go): 5 secs",
+      "difficulty": 2,
+      "endProduct": "stoplight.png",
+      "technologies": ["Typescript"],
+      "solution": "Stoplight.tsx",
+      "video": "https://www.youtube.com/watch?v=plFo3jJRTdE&list=PL6x5Q-Sj_Bla3_wMqhETxMBjFml0XJNPI&index=12",
+      "slug": "stoplight",
+      "cssFile": "stoplight.css"
+    },
+    {
+      "title": "Wack-A-Mole 🔨",
+      "statement": "Build a Stoplight component that triggers between different states with intervals.\nRed(stop): 3 secs\nYellow(slow): 2 secs\nGreen(go): 5 secs",
+      "difficulty": 3,
+      "endProduct": "wack-a-mole.png",
+      "technologies": ["Javascript"],
+      "solution": "WackAMole.jsx",
+      "video": "https://www.youtube.com/watch?v=x01eEjSFKig&list=PL6x5Q-Sj_Bla3_wMqhETxMBjFml0XJNPI&index=13",
+      "slug": "wack-a-mole",
+      "cssFile": "wack.css"
+    }
+  ]
+}
